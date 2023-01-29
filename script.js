@@ -27,9 +27,9 @@ class Player {
     }
 };
 
-let mbappe = new Player("Kylian Mbappe", "francja.png", "psg.png", 254, "mbappe.png", "prawonożny", 97, 89, 80, "mstadium.jpg");
+let mbappe = new Player("Kylian Mbappe", "img/francja.png", "img/psg.png", 254, "img/mbappe.png", "prawonożny", 97, 89, 80, "img/mstadium.jpg");
 
-let haaland = new Player("Erling Haaland", "norwegia.png", "city.png", 183, "haaland.png", "lewonożny", 89, 91, 65, "hstadium.png");
+let haaland = new Player("Erling Haaland", "img/norwegia.png", "img/city.png", 183, "img/haaland.png", "lewonożny", 89, 91, 65, "img/hstadium.png");
 
 
 
@@ -98,7 +98,7 @@ else {
 
 
 //guzik//
-function myFunction() {
+function ok() {
     var x = document.getElementById("myDIV");
     if (x.style.display === "none") {
       x.style.display = "block";
@@ -106,3 +106,8 @@ function myFunction() {
       x.style.display = "none";
     }
   }
+
+  function sans() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}

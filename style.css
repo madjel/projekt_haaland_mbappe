@@ -201,6 +201,12 @@ body, html {
     margin: 0px;
 }
 
+.dark-mode {
+    color: #000000;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+
 #myDIV {
   width: 100%;
   padding: 20px 0;
@@ -208,5 +214,7 @@ body, html {
   margin-top: -2000px;
 }
 
+
+  
 
 
